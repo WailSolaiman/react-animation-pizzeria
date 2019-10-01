@@ -1,22 +1,26 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+    background-color: #d3eefe;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-family: 'Poppins';
+    color: #43515c;
+    font-size: 70px;
+    font-weight: lighter;
+    letter-spacing: -5px;
+    padding: 50px 0px 0px 0px;
+    z-index: 999;
 }
 
-.App-link {
-  color: #09d3ac;
+p {
+    font-family: 'Poppins';
+    color: #43515c;
+    font-size: 24px;
+    font-weight: 100;
+    z-index: 999;
 }
